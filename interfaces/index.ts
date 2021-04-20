@@ -4,7 +4,14 @@
 //
 // import { User } from 'path/to/interfaces';
 
-export type User = {
-  id: number
+export type DataType = {
+  uuid: string
   name: string
+  description: string
+  contact: string
+  lastVerified: number
+}
+
+export type SearchType = DataType & {
+  category: string
 }

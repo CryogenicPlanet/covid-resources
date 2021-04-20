@@ -22,9 +22,10 @@
       "@styles*": ["styles*"],
       "@components*": ["components*"],
       "@interfaces*": ["interfaces*"],
-      "@utils*": ["utils*"]
+      "@utils*": ["utils*"],
+      "@data*": ["_data*"]
     }
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.json"]
 }

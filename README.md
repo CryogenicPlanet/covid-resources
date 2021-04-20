@@ -1,27 +1,11 @@
-# TypeScript + Next.js + Tailwind + Eslint + Prettier
+# Covid 19 Bangalore Resource Repository
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+There are lot of collections of valuable data but keeping it an open source place like this makes it much better to search and not duplicate
 
-## How to use it?
+## Data
 
-```bash
-1. Clone repo
-git clone https://github.com/CryogenicPlanet/next-typescript-tailwind-eslint-boilerplate.git
+All the data is in the `_data` folder, everything else is just the client to display the data
 
+## Cloning for other cities
 
-2. Install and Run
-yarn
-yarn dev
-```
-
-## Notes
-
-Other features/quirks
-
-1. Paths setup for you
-   Eg. You can `import Link from '@components/Link`
-2. Import sorting
-3. Eslint + Prettier Config setup using standard
-4. Tailwind installed setup globally
-5. Next on Netlify setup.
-6. Husky Commit Hook
+This should ideally be cloned for every city with its own data, which makes it most useful. Maybe even for smaller communities within a city
