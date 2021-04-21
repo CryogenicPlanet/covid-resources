@@ -5,14 +5,16 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "yarn cron & next start",
     "type-check": "tsc",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "yarn lint --fix",
     "prettier": "prettier --check **/*.ts*",
     "prettier:fix": "prettier --write **/*.ts*",
     "verify": "yarn prettier && yarn lint",
-    "verify:fix": "yarn prettier:fix && yarn lint:fix"
+    "verify:fix": "yarn prettier:fix && yarn lint:fix",
+    "cron": "cron helpers/gitPushCron",
+    "cleanData": "prettier --write _data/*.json"
   },
   "dependencies": {
     "@headlessui/react": "^1.0.0",
@@ -21,6 +23,7 @@
     "@tailwindcss/forms": "^0.3.2",
     "autoprefixer": "^10.2.4",
     "axios": "^0.21.1",
+    "cron-cli": "^0.3.4",
     "fuse.js": "^6.4.6",
     "next": "latest",
     "postcss": "^8.2.4",

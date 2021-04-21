@@ -42,6 +42,12 @@ This should ideally be cloned for every city with its own data, which makes it m
 
 Set the `NEXT_PUBLIC_CITY_NAME` in `.env.local` to the name of your city
 
+## Git Integration
+
+You can setup automatic git updates every hour by adding `WORKER_ACCOUNT` and `WORKER_PASSWORD` to the `.env.local` file.
+
+While these can be the name and password of your main github account, I would recommend setting up a smurf account just for grunt work which can push these changes
+
 ## Development
 
 ### Getting Started
