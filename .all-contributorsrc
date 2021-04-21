@@ -1,0 +1,14 @@
+{
+  "projectName": "covid-resources",
+  "projectOwner": "CryogenicPlanet",
+  "repoType": "github",
+  "repoHost": "https://github.com/CryogenicPlanet/covid-resources",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [],
+  "contributorsPerLine": 7
+}

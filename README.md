@@ -1,14 +1,68 @@
 # Covid 19 Resource Repository
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+[![Run on repl.it](https://repl.it/badge/github/CryogenicPlanet/covid-resources)](https://repl.it/github/CryogenicPlanet/covid-resources}&ref=button)
 
 This is a general repo not for any specific city but rather any city, fork this repo for other cities
 
-[![Run on repl.it](https://repl.it/badge/github/CryogenicPlanet/covid-bangalore-resources)](https://covid-bangalore-resources.cryogenicplanet.repl.co)
-
 There are lot of collections of valuable data but keeping it an open source place like this makes it much better to search and not duplicate.
 
-## Data
+# Getting Started
 
-All the data is in the `_data` folder, everything else is just the client to display the data
+Set the variables in `.env.example` and move them to `.env.local`
+
+```
+yarn install
+yarn build
+```
+
+# Cities
+
+List of exisiting cities that have repository with data
+
+| City Name | Link to repo                                                 | Link to deployment                                         |
+| --------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| Bangalore | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://covid-bangalore-resources.cryogenicplanet.repl.co/ |
+
+# Cloning for other cities
+
+This should ideally be cloned for every city with its own data, which makes it most useful. Maybe even for smaller communities within a city.
+
+1. Fork this repo
+2. Set all the enviroment variables in `.env.example`
+3. Recommend using [repl.it](https://repl.it) for deployment
+4. Add your repo and deployment link to the table above!
+
+## Enviorment Variables
+
+`NEXT_PUBLIC_CITY_NAME` is the name of your city.
+
+P.S : `NEX_PUBLIC_ENV` is just the way nextjs allows env variables to be accessible in the dom, nothing else.
+
+### Captcha
+
+Generate your captcha secrets [here](https://g.co/recaptcha/v3) using recaptha v2
+
+1.  `CAPTCHA_SECRET` This is the captcha secret google give you
+2.  `NEXT_PUBLIC_CAPTHA_SITE_KEY` This is the captcha site key
+
+### Git Integration
+
+You can setup automatic git updates every hour by adding `WORKER_ACCOUNT`,`WORKER_PASSWORD` and `REPO_URL` to the `.env.local` file.
+
+**For simplicity, please ensure `REPO_URL` does not have `https://` so it should be like `github.com/CryogenicPlanet/covid-bangalore-resources.git`**
+
+While these can be the name and password of your main github account, I would recommend setting up a smurf account just for grunt work which can push these changes
+
+# Data
+
+All the data is in the `_data` folder, everything else is just the client to display the data.
+
+_This repository has no data itself, all the data will be in city specific repositories_
+
+The idea with open sourcing the data is, this data can be used for more complex application which verifiy sources or such without having to worry about collecting the data again.
 
 ### Adding data programatically
 
@@ -40,35 +94,15 @@ While adding them programatically, we can directly modify the `json` files insid
 
 Any language can be used to programtically writing to these `json` files, I would recommend `python`. Once the data is written, just make a PR and I will merge it as soon as possible.
 
-## Cloning for other cities
+## Contributors ✨
 
-This should ideally be cloned for every city with its own data, which makes it most useful. Maybe even for smaller communities within a city.
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-Set the `NEXT_PUBLIC_CITY_NAME` in `.env.local` to the name of your city
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## Git Integration
-
-You can setup automatic git updates every hour by adding `WORKER_ACCOUNT`,`WORKER_PASSWORD` and `REPO_URL` to the `.env.local` file.
-
-**For simplicity, please ensure `REPO_URL` does not have `https://` so it should be like `github.com/CryogenicPlanet/covid-bangalore-resources.git`**
-
-While these can be the name and password of your main github account, I would recommend setting up a smurf account just for grunt work which can push these changes
-
-## Development
-
-### Getting Started
-
-Set the variables in `.env.example` and move them to `.env.local`
-
-```
-pnpm install # Faster node package manager
-pnpm dev # Next dev
-```
-
-## Cities
-
-List of cities that have repository with data
-
-| City Name | Link to repo                                                 | Link to deployment                                         |
-| --------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| Bangalore | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://covid-bangalore-resources.cryogenicplanet.repl.co/ |
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
