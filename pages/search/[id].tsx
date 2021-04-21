@@ -165,7 +165,7 @@ export const getServerSideProps: GetServerSideProps = async ctx => {
     includeScore: true,
     shouldSort: true,
     isCaseSensitive: true,
-    threshold: 0.6,
+    threshold: 0.4,
     ignoreLocation: true,
     keys: ['name', 'description', 'contact', 'category']
   })

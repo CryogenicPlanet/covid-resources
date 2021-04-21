@@ -1,8 +1,10 @@
-# Covid 19 Bangalore Resource Repository
+# Covid 19 Resource Repository
+
+This is a general repo not for any specific city but rather any city, fork this repo for other cities
 
 [![Run on repl.it](https://repl.it/badge/github/CryogenicPlanet/covid-bangalore-resources)](https://covid-bangalore-resources.cryogenicplanet.repl.co)
 
-There are lot of collections of valuable data but keeping it an open source place like this makes it much better to search and not duplicate
+There are lot of collections of valuable data but keeping it an open source place like this makes it much better to search and not duplicate.
 
 ## Data
 
