@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "CryogenicPlanet",
+      "name": "Rahul Tarak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10355479?v=4",
+      "profile": "http://cryogenicplanet.tech",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "covid-resources",
+  "projectOwner": "CryogenicPlanet",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
