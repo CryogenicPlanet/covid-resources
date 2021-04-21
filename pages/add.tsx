@@ -4,6 +4,7 @@ import { view } from '@risingstack/react-easy-state'
 import { categories } from '@utils/categories'
 import { newResource, selectedStore } from '@utils/store'
 import axios from 'axios'
+import Router from 'next/router'
 import React, { FormEvent } from 'react'
 import ReCAPTCHA from 'react-google-recaptcha'
 import toast from 'react-hot-toast'
@@ -45,6 +46,7 @@ function NewResource() {
             }
           }
         )
+        Router.reload()
       } else {
         throw new Error('Invalid captcha')
       }

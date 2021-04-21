@@ -64,7 +64,7 @@ export default function Resources({
                           <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                             {elm.name}
                           </td>
-                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                          <td className="px-6 py-4 max-w-2xl leading-relaxed break-words text-sm text-gray-500">
                             {elm.description}
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
