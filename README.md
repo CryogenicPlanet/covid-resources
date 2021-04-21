@@ -22,7 +22,7 @@ type DataType = {
 
 While adding them programatically, we can directly modify the `json` files inside the `_data` folder depending on the category.(Uncategorized should go into other). Each json files is structured like the following
 
-```json
+```
 {
   "data": [
     {
