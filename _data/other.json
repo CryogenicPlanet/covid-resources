@@ -1,3 +1,18 @@
 {
-  "data": []
+  "data": [
+    {
+      "uuid": "86c7f19f-cc70-4b3b-8b1b-0d259796fd9a",
+      "name": "Star Ambulance",
+      "contact": "09880404746",
+      "description": "24*7 Ambulance all over bangalore",
+      "lastVerified": -1
+    },
+    {
+      "uuid": "61540b80-fa55-43ea-bf81-07dbc9ae8063",
+      "name": "KDC Daynight Ambulance",
+      "contact": "08123656615",
+      "description": "24*7 all over Bangalore",
+      "lastVerified": -1
+    }
+  ]
 }
