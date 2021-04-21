@@ -48,7 +48,9 @@ Set the `NEXT_PUBLIC_CITY_NAME` in `.env.local` to the name of your city
 
 ## Git Integration
 
-You can setup automatic git updates every hour by adding `WORKER_ACCOUNT` and `WORKER_PASSWORD` to the `.env.local` file.
+You can setup automatic git updates every hour by adding `WORKER_ACCOUNT`,`WORKER_PASSWORD` and `REPO_URL` to the `.env.local` file.
+
+**For simplicity, please ensure `REPO_URL` does not have `https://` so it should be like `github.com/CryogenicPlanet/covid-bangalore-resources.git`**
 
 While these can be the name and password of your main github account, I would recommend setting up a smurf account just for grunt work which can push these changes
 

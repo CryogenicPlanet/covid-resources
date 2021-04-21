@@ -15,7 +15,7 @@ fi
 if [ changes ]; then
     git add _data
     git commit -m "Hourly Data Update"
-    git push https://$WORKER_ACCOUNT:$WORKER_PASSWORD@github.com/CryogenicPlanet/covid-bangalore-resources.git --all
+    git push https://$WORKER_ACCOUNT:$WORKER_PASSWORD@$REPO_URL --all
 fi  
 
 
