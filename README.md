@@ -85,7 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://cryogenicplanet.tech"><img src="https://avatars.githubusercontent.com/u/10355479?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rahul Tarak</b></sub></a><br /><a href="https://github.com/CryogenicPlanet/covid-resources/commits?author=CryogenicPlanet" title="Code">💻</a></td>
+    <td align="center"><a href="http://cryogenicplanet.tech"><img src="https://avatars.githubusercontent.com/u/10355479?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rahul Tarak</b></sub></a><br /><a href="https://github.com/CryogenicPlanet/covid-resources/commits?author=CryogenicPlanet" title="Code">💻</a> <a href="https://github.com/CryogenicPlanet/covid-resources/commits?author=CryogenicPlanet" title="Documentation">📖</a></td>
   </tr>
 </table>
 
