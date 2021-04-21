@@ -1,5 +1,6 @@
-import Layout from '@components/Layout'
 import React from 'react'
+
+import Layout from '../components/Layout'
 const FourOFour = () => {
   return (
     <Layout title="Not Found">

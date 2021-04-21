@@ -1,9 +1,10 @@
-import { DataType } from '@interfaces/index'
-import { getCategoryById } from '@utils/categories'
 import fs from 'fs'
 import { NextApiRequest, NextApiResponse } from 'next'
 import path from 'path'
 import { v4 } from 'uuid'
+
+import { DataType } from '../../interfaces/index'
+import { getCategoryById } from '../../utils/categories'
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { categoryId, name, contact, description } = req.body

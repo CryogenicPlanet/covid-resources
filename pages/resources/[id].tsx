@@ -1,11 +1,12 @@
 /* This example requires Tailwind CSS v2.0+ */
-import Layout from '@components/Layout'
-import { DataType } from '@interfaces/index'
-import handleVerify from '@utils/handleVerify'
 import fs from 'fs'
 import { GetServerSideProps } from 'next'
 import path from 'path'
 import React from 'react'
+
+import Layout from '../../components/Layout'
+import { DataType } from '../../interfaces/index'
+import handleVerify from '../../utils/handleVerify'
 
 export default function Resources({
   id,

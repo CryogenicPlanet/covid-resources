@@ -1,8 +1,9 @@
 /* eslint-disable react/display-name */
-import Layout from '@components/Layout'
 import { BeakerIcon, InformationCircleIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import React from 'react'
+
+import Layout from '../components/Layout'
 
 const actions = [
   {

@@ -17,14 +17,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext",
-    "baseUrl": ".",
-    "paths": {
-      "@styles*": ["styles*"],
-      "@components*": ["components*"],
-      "@interfaces*": ["interfaces*"],
-      "@utils*": ["utils*"],
-      "@data*": ["_data*"]
-    }
+ 
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx", "**/*.json"]

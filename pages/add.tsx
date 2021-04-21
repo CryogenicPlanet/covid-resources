@@ -1,13 +1,14 @@
-import Layout from '@components/Layout'
-import Select from '@components/Select'
 import { view } from '@risingstack/react-easy-state'
-import { categories } from '@utils/categories'
-import { newResource, selectedStore } from '@utils/store'
 import axios from 'axios'
 import Router from 'next/router'
 import React, { FormEvent } from 'react'
 import ReCAPTCHA from 'react-google-recaptcha'
 import toast from 'react-hot-toast'
+
+import Layout from '../components/Layout'
+import Select from '../components/Select'
+import { categories } from '../utils/categories'
+import { newResource, selectedStore } from '../utils/store'
 
 function NewResource() {
   const recaptchaRef = React.createRef()

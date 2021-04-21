@@ -1,16 +1,17 @@
 /* This example requires Tailwind CSS v2.0+ */
-import Layout from '@components/Layout'
-import beds from '@data/beds.json'
-import other from '@data/other.json'
-import oxygen from '@data/oxygen.json'
-import plasma from '@data/plasma.json'
-import remdesivir from '@data/remdesivir.json'
-import ventilators from '@data/ventilator.json'
-import { SearchType } from '@interfaces/index'
-import handleVerify from '@utils/handleVerify'
 import Fuse from 'fuse.js'
 import { GetServerSideProps } from 'next'
 import React from 'react'
+
+import beds from '../../_data/beds.json'
+import other from '../../_data/other.json'
+import oxygen from '../../_data/oxygen.json'
+import plasma from '../../_data/plasma.json'
+import remdesivir from '../../_data/remdesivir.json'
+import ventilators from '../../_data/ventilator.json'
+import Layout from '../../components/Layout'
+import { SearchType } from '../../interfaces/index'
+import handleVerify from '../../utils/handleVerify'
 
 export default function Resources({
   id,

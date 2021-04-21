@@ -1,7 +1,8 @@
-import { DataType } from '@interfaces/index'
 import fs from 'fs'
 import { NextApiRequest, NextApiResponse } from 'next'
 import path from 'path'
+
+import { DataType } from '../../interfaces/index'
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { id, category } = req.body

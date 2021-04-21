@@ -2,8 +2,9 @@
 import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, SelectorIcon } from '@heroicons/react/solid'
 import { view } from '@risingstack/react-easy-state'
-import { selectedStore } from '@utils/store'
 import React, { Fragment, useEffect, useState } from 'react'
+
+import { selectedStore } from '../utils/store'
 
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ')
