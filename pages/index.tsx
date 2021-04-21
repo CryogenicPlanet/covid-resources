@@ -8,14 +8,16 @@ import Layout from '../components/Layout'
 const actions = [
   {
     title: 'Remdesivir',
-    href: 'remdesivir',
+
+    description: 'List of sources to potentially get remdesivir from.',
     icon: BeakerIcon,
     iconForeground: 'text-teal-700',
     iconBackground: 'bg-teal-50'
   },
   {
     title: 'Beds',
-    href: 'beds',
+
+    description: 'List of sources to check for hospital bed avaliability from.',
     icon: ({ className }: { className: string }) => {
       return (
         <svg
@@ -32,7 +34,8 @@ const actions = [
   },
   {
     title: 'Plasma',
-    href: '#',
+    description:
+      'List of potentially plasma donors and sources to get plasma from',
     icon: ({ className }: { className: string }) => {
       return (
         <svg
@@ -49,7 +52,7 @@ const actions = [
   },
   {
     title: 'Ventilator',
-    href: '#',
+    description: 'List of potential sources to get ventilators from',
     icon: ({ className }: { className: string }) => {
       return (
         <svg viewBox="0 0 20 20" fill="currentColor" className={className}>
@@ -62,7 +65,8 @@ const actions = [
   },
   {
     title: 'Oxygen',
-    href: '#',
+    description: 'List of potential sources to get oxygen tanks from',
+
     icon: ({ className }: { className: string }) => {
       return (
         <svg
@@ -88,7 +92,9 @@ const actions = [
   },
   {
     title: 'Other',
-    href: '#',
+    description:
+      'List of any other useful information that can assit covid patiences, regarding vaccines, ambunances, food,etc',
+
     icon: InformationCircleIcon,
     iconForeground: 'text-indigo-700',
     iconBackground: 'bg-indigo-50'
@@ -141,9 +147,7 @@ const IndexPage = () => (
                   </Link>
                 </h3>
                 <p className="mt-2 text-sm text-gray-500">
-                  Doloribus dolores nostrum quia qui natus officia quod et
-                  dolorem. Sit repellendus qui ut at blanditiis et quo et
-                  molestiae.
+                  {action.description}
                 </p>
               </div>
               <span

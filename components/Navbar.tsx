@@ -48,7 +48,7 @@ export default function Navbar({ cityName }: { cityName: string }) {
         {() => (
           <>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="relative flex justify-between xl:grid xl:grid-cols-12 lg:gap-8">
+              <div className="relative flex flex-col items-center sm:flex-row justify-between xl:grid xl:grid-cols-12 lg:gap-8">
                 <div className="flex md:absolute md:left-0 md:inset-y-0 lg:static xl:col-span-3">
                   <div className="flex-shrink-0 flex items-center">
                     <Link href="/" passHref>
@@ -88,7 +88,7 @@ export default function Navbar({ cityName }: { cityName: string }) {
                     </form>
                   </div>
                 </div>
-                <div className="hidden lg:flex lg:items-center lg:justify-end xl:col-span-3">
+                <div className="lg:flex lg:items-center lg:justify-end xl:col-span-3">
                   <Link href="/add" passHref>
                     <a
                       href="#"
