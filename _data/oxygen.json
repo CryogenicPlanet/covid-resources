@@ -1,1 +1,32 @@
-{"data":[{"uuid":"ebe4e570-f4f5-4aa4-bf8b-2bae4fa73f76","name":"Manoj","contact":"9892356727","description":"Whatsapp for Oxygen","lastVerified":-1},{"uuid":"ae86d90f-0876-4ed3-8eda-280179277d54","name":"Naasih Educational Trust & Jamiat Ulama Karnataka","contact":"080 2548 3641","description":"Address: Naasih Public School, Behind Hajee Sir Ismail Sait Mosque, Frazer Town\nRefundable Security Deposit: Rs.6000/-","lastVerified":-1},{"uuid":"0d49ab13-4c9a-4da0-bf3a-fafdb85f0387","name":"Mercy Mission","contact":"86608 56709","description":"Crescent High School,\nMosque Road, Basavanagudi\nRefundable Security Deposit : Rs.8000/-","lastVerified":-1},{"uuid":"bdb87a1a-2a24-4d82-8b9c-4d467d710c6b","name":"Mamoor Oxygen","contact":"96865 24247","description":"Refundable Security Deposit : Rs. 10000/-. Aadhaar Card, Doctor’s Prescription","lastVerified":-1}]}
+{
+  "data": [
+    {
+      "uuid": "ebe4e570-f4f5-4aa4-bf8b-2bae4fa73f76",
+      "name": "Manoj",
+      "contact": "9892356727",
+      "description": "Whatsapp for Oxygen",
+      "lastVerified": -1
+    },
+    {
+      "uuid": "ae86d90f-0876-4ed3-8eda-280179277d54",
+      "name": "Naasih Educational Trust & Jamiat Ulama Karnataka",
+      "contact": "080 2548 3641",
+      "description": "Address: Naasih Public School, Behind Hajee Sir Ismail Sait Mosque, Frazer Town\nRefundable Security Deposit: Rs.6000/-",
+      "lastVerified": -1
+    },
+    {
+      "uuid": "0d49ab13-4c9a-4da0-bf3a-fafdb85f0387",
+      "name": "Mercy Mission",
+      "contact": "86608 56709",
+      "description": "Crescent High School,\nMosque Road, Basavanagudi\nRefundable Security Deposit : Rs.8000/-",
+      "lastVerified": -1
+    },
+    {
+      "uuid": "bdb87a1a-2a24-4d82-8b9c-4d467d710c6b",
+      "name": "Mamoor Oxygen",
+      "contact": "96865 24247",
+      "description": "Refundable Security Deposit : Rs. 10000/-. Aadhaar Card, Doctor’s Prescription",
+      "lastVerified": -1
+    }
+  ]
+}
