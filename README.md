@@ -64,3 +64,11 @@ Set the variables in `.env.example` and move them to `.env.local`
 pnpm install # Faster node package manager
 pnpm dev # Next dev
 ```
+
+## Cities
+
+List of cities that have repository with data
+
+| City Name | Link to repo                                                 | Link to deployment                                         |
+| --------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| Bangalore | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://covid-bangalore-resources.cryogenicplanet.repl.co/ |
