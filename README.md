@@ -1,5 +1,7 @@
 # Covid 19 Bangalore Resource Repository
 
+[![Run on repl.it](https://repl.it/badge/github/CryogenicPlanet/covid-bangalore-resources)](https://repl.it/github/CryogenicPlanet/covid-bangalore-resources}&ref=button)
+
 There are lot of collections of valuable data but keeping it an open source place like this makes it much better to search and not duplicate
 
 ## Data
