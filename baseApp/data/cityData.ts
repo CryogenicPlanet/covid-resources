@@ -7,7 +7,7 @@ import { CityData } from '@interfaces/index'
 const cityData: CityData[] = [
   {
     name: 'Bangalore',
-    url: 'https://covid-bangalore-resources.cryogenicplanet.repl.co/',
+    url: 'https://bangalore.covidsupport.co.in',
     repo: 'https://github.com/CryogenicPlanet/covid-bangalore-resources',
     maintainer: {
       name: 'Rahul Tarak',
@@ -16,7 +16,7 @@ const cityData: CityData[] = [
   },
   {
     name: 'Jabalpur',
-    repo: 'https://github.com/Siddhant-K-code/Jabalpur-covid-resources',
+    repo: 'https://jabalpur.covidsupport.co.in',
     url: 'https://jabalpur-covid-resources.siddhantkcode.repl.co/',
     maintainer: {
       name: 'Siddhant Khare',
@@ -26,7 +26,7 @@ const cityData: CityData[] = [
   {
     name: 'Bhopal',
     repo: 'https://github.com/Siddhant-K-code/Bhopal-covid-resources',
-    url: 'https://bhopal-covid-resources.siddhantkcode.repl.co/',
+    url: 'https://bhopal.covidsupport.co.in/',
     maintainer: {
       name: 'Siddhant Khare',
       url: 'https://twitter.com/Siddhant_K_code'
@@ -35,7 +35,7 @@ const cityData: CityData[] = [
   {
     name: 'Kanpur',
     repo: 'https://github.com/kj228/kanpur-covid-resources',
-    url: 'https://covid-resources.kushagrajain11.repl.co/',
+    url: 'https://kanpur.covidsupport.co.in',
     maintainer: {
       name: 'Kushagra',
       url: 'https://www.instagram.com/kushagra5/'
@@ -44,7 +44,7 @@ const cityData: CityData[] = [
   {
     name: 'Delhi',
     repo: 'https://github.com/kanavbatra/covid-resources',
-    url: 'https://delhi-covid-resources.imbatraman.repl.co/',
+    url: 'https://delhi.covidsupport.co.in',
     maintainer: {
       name: 'Kanav Batra',
       url: 'https://twitter.com/batrakanav'

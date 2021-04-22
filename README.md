@@ -26,13 +26,13 @@ yarn dev # To run development mode of the server
 
 List of exisiting cities that have repository with data
 
-| City Name       | Link to repo                                                 | Link to deployment                                         |
-| --------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| Bangalore       | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://covid-bangalore-resources.cryogenicplanet.repl.co/ |
-| Jabalpur (M.P.) | https://github.com/Siddhant-K-code/Jabalpur-covid-resources  | https://jabalpur-covid-resources.siddhantkcode.repl.co/    |
-| Bhoapl (M.P.)   | https://github.com/Siddhant-K-code/Bhopal-covid-resources    | https://bhopal-covid-resources.siddhantkcode.repl.co/      |
-| Kanpur          | https://github.com/kj228/kanpur-covid-resources              | https://covid-resources.kushagrajain11.repl.co/            |
-| Delhi          | https://github.com/kanavbatra/covid-resources           | https://delhi-covid-resources.imbatraman.repl.co/           |
+| City Name       | Link to repo                                                 | Link to deployment                    |
+| --------------- | ------------------------------------------------------------ | ------------------------------------- |
+| Bangalore       | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://bangalore.covidsupport.co.in/ |
+| Jabalpur (M.P.) | https://github.com/Siddhant-K-code/Jabalpur-covid-resources  | https://jabalpur.covidsupport.co.in/  |
+| Bhoapl (M.P.)   | https://github.com/Siddhant-K-code/Bhopal-covid-resources    | https://bophal.covidsupport.co.in/    |
+| Kanpur          | https://github.com/kj228/kanpur-covid-resources              | https://kanpur.covidsupport.co.in/    |
+| Delhi           | https://github.com/kanavbatra/covid-resources                | https://delhi.covidsupport.co.in/     |
 
 # Cloning for other cities
 

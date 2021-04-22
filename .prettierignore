@@ -5,3 +5,4 @@ out_publish/
 out_functions/
 .netlify/
 .vercel/
+baseApp/
