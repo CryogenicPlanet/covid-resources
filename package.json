@@ -71,5 +71,9 @@
       "pre-commit": "yarn prettier",
       "pre-push": "yarn verify"
     }
-  }
+  },
+  "workspaces": [
+    "baseApp"
+  ],
+  "private": true
 }

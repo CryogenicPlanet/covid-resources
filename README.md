@@ -1,6 +1,9 @@
 # Covid 19 Resource Repository
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Run on repl.it](https://repl.it/badge/github/CryogenicPlanet/covid-resources)](https://repl.it/github/CryogenicPlanet/covid-resources}&ref=button)
@@ -16,17 +19,19 @@ Set the variables in `.env.example` and move them to `.env.local`
 ```
 yarn install
 yarn build
+yarn dev # To run development mode of the server
 ```
 
 # Cities
 
 List of exisiting cities that have repository with data
 
-| City Name | Link to repo                                                 | Link to deployment                                         |
-| --------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| Bangalore | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://covid-bangalore-resources.cryogenicplanet.repl.co/ |
-| Jabalpur (M.P.) | https://github.com/Siddhant-K-code/Jabalpur-covid-resources | https://jabalpur-covid-resources.siddhantkcode.repl.co/ |
-| Bhoapl (M.P.) | https://github.com/Siddhant-K-code/Bhopal-covid-resources | https://bhopal-covid-resources.siddhantkcode.repl.co/ |
+| City Name       | Link to repo                                                 | Link to deployment                                         |
+| --------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| Bangalore       | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://covid-bangalore-resources.cryogenicplanet.repl.co/ |
+| Jabalpur (M.P.) | https://github.com/Siddhant-K-code/Jabalpur-covid-resources  | https://jabalpur-covid-resources.siddhantkcode.repl.co/    |
+| Bhoapl (M.P.)   | https://github.com/Siddhant-K-code/Bhopal-covid-resources    | https://bhopal-covid-resources.siddhantkcode.repl.co/      |
+| Kanpur          | https://github.com/kj228/kanpur-covid-resources              | https://covid-resources.kushagrajain11.repl.co/            |
 
 # Cloning for other cities
 
@@ -36,6 +41,8 @@ This should ideally be cloned for every city with its own data, which makes it m
 2. Set all the enviroment variables in `.env.example`
 3. Recommend using [repl.it](https://repl.it) for deployment
 4. Add your repo and deployment link to the table above!
+
+_Feel free to delete the `baseApp` folder in your forks or just leave it alone, it is just for the landing page._
 
 ## Enviorment Variables
 
@@ -57,6 +64,25 @@ You can setup automatic git updates every hour by adding `WORKER_ACCOUNT`,`WORKE
 **For simplicity, please ensure `REPO_URL` does not have `https://` so it should be like `github.com/CryogenicPlanet/covid-bangalore-resources.git`**
 
 While these can be the name and password of your main github account, I would recommend setting up a smurf account just for grunt work which can push these changes
+
+### Adding your city to the list
+
+1. Modify this `README.md` with the Cities table above and add your city
+2. Modfiy `baseApp/cityData.ts` with your city, it an array of cities which are shaped like the following
+
+```typescript
+const city = {
+  name: 'Bangalore',
+  url: 'https://covid-bangalore-resources.cryogenicplanet.repl.co/',
+  repo: 'https://github.com/CryogenicPlanet/covid-bangalore-resources',
+  maintainer: {
+    name: 'Rahul Tarak',
+    url: 'https://twitter.com/CryogenicPlanet'
+  }
+
+```
+
+3. Make a PR to this repo!
 
 # Data
 
@@ -105,6 +131,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
