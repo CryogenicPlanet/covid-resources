@@ -3,11 +3,17 @@ import Footer from '@components/Footer'
 import { getCityDataAsDictionary, getCityDataByLetter } from '@data/dataUtils'
 import { CityDictionary } from '@interfaces/index'
 import { GetServerSideProps } from 'next'
+import Head from 'next/head'
 import React from 'react'
 
 export default function Index({ dictionary }: { dictionary: CityDictionary }) {
   return (
     <>
+      <Head>
+        <title>Covid Resources | Home</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="flex flex-col  w-full justify-center items-center py-5 space-y-5">
         <div className="flex flex-col">
           <p className="text-3xl font-bold text-center">
