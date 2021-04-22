@@ -54,6 +54,7 @@ const Footer = () => {
           <p className="text-center text-base text-gray-400"></p>
         </div>
       </div>
+      <div className="text-center text-base text-gray-400">We Do Not take any responsibility for this data, It is collected from Online Sources by Different Volunteers.</div>
     </footer>
   )
 }
