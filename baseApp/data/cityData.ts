@@ -40,6 +40,15 @@ const cityData: CityData[] = [
       name: 'Kushagra',
       url: 'https://www.instagram.com/kushagra5/'
     }
+  },
+  {
+    name: 'Delhi',
+    repo: 'https://github.com/kanavbatra/covid-resources',
+    url: 'https://delhi-covid-resources.imbatraman.repl.co/',
+    maintainer: {
+      name: 'Kanav Batra',
+      url: 'https://twitter.com/batrakanav'
+    }
   }
 ]
 
