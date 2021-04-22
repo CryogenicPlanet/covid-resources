@@ -32,6 +32,7 @@ List of exisiting cities that have repository with data
 | Jabalpur (M.P.) | https://github.com/Siddhant-K-code/Jabalpur-covid-resources  | https://jabalpur-covid-resources.siddhantkcode.repl.co/    |
 | Bhoapl (M.P.)   | https://github.com/Siddhant-K-code/Bhopal-covid-resources    | https://bhopal-covid-resources.siddhantkcode.repl.co/      |
 | Kanpur          | https://github.com/kj228/kanpur-covid-resources              | https://covid-resources.kushagrajain11.repl.co/            |
+| Delhi          | https://github.com/kanavbatra/covid-resources           | https://delhi-covid-resources.imbatraman.repl.co/           |
 
 # Cloning for other cities
 
