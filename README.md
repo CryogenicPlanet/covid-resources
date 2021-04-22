@@ -30,7 +30,7 @@ List of exisiting cities that have repository with data
 | --------------- | ------------------------------------------------------------ | ------------------------------------- |
 | Bangalore       | https://github.com/CryogenicPlanet/covid-bangalore-resources | https://bangalore.covidsupport.co.in/ |
 | Jabalpur (M.P.) | https://github.com/Siddhant-K-code/Jabalpur-covid-resources  | https://jabalpur.covidsupport.co.in/  |
-| Bhoapl (M.P.)   | https://github.com/Siddhant-K-code/Bhopal-covid-resources    | https://bophal.covidsupport.co.in/    |
+| Bhopal (M.P.)   | https://github.com/Siddhant-K-code/Bhopal-covid-resources    | https://bhopal.covidsupport.co.in/    |
 | Kanpur          | https://github.com/kj228/kanpur-covid-resources              | https://kanpur.covidsupport.co.in/    |
 | Delhi           | https://github.com/kanavbatra/covid-resources                | https://delhi.covidsupport.co.in/     |
 
