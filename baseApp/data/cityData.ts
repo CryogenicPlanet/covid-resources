@@ -49,6 +49,15 @@ const cityData: CityData[] = [
       name: 'Kanav Batra',
       url: 'https://twitter.com/batrakanav'
     }
+  },
+  {
+    name: 'Noida',
+    repo: 'https://github.com/shobhitcodes/covid-resources',
+    url: 'https://noida.covidsupport.co.in',
+    maintainer: {
+      name: 'Rajat Paliwal',
+      url: 'https://www.linkedin.com/in/rajatpaliwal'
+    }
   }
 ]
 

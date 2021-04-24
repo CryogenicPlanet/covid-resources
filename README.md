@@ -33,6 +33,7 @@ List of exisiting cities that have repository with data
 | Bhopal (M.P.)   | https://github.com/Siddhant-K-code/Bhopal-covid-resources    | https://bhopal.covidsupport.co.in/    |
 | Kanpur          | https://github.com/kj228/kanpur-covid-resources              | https://kanpur.covidsupport.co.in/    |
 | Delhi           | https://github.com/kanavbatra/covid-resources                | https://delhi.covidsupport.co.in/     |
+| Noida           | https://github.com/shobhitcodes/covid-resources                | https://noida.covidsupport.co.in/     |
 
 # Cloning for other cities
 
