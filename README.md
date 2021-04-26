@@ -70,7 +70,7 @@ While these can be the name and password of your main github account, I would re
 ### Adding your city to the list
 
 1. Modify this `README.md` with the Cities table above and add your city
-2. Modfiy `baseApp/cityData.ts` with your city, it an array of cities which are shaped like the following
+2. Modfiy `baseApp/data/cityData.ts` with your city, it an array of cities which are shaped like the following
 
 ```typescript
 const city = {
